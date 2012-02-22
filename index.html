@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ölspel</title>
+	
+	<link rel="stylesheet" href="css/reset.css" type="text/css" />
+	<link rel="stylesheet" href="css/main.css" type="text/css" />
+  <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+	
+    <link rel="stylesheet" media="screen and (min-width: 1200px)" href="css/mediatypes.css" />
+	
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+
+	<script src="js/scripts.js"></script>
+
+</head>
+
+<body>
+
+	<section id="container">
+	
+	<div class="game">
+	    
+	    <ul class="cards spread">
+               
+               <li class="card clubs">
+                  <div class="front">
+                      <div class="top-number">2</div>
+                      <div class="top-type">♣</div>
+                           <div class="type">♣</div>
+                      <div class="bottom-type">♣</div>
+                      <div class="bottom-number">2</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+               
+               <li class="card hearts">
+                  <div class="front">
+                      <div class="top-number">3</div>
+                      <div class="top-type">♥</div>
+                           <div class="type">♥</div>
+                      <div class="bottom-type">♥</div>
+                      <div class="bottom-number">3</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card clubs">
+                  <div class="front">
+                      <div class="top-number">4</div>
+                      <div class="top-type">♣</div>
+                           <div class="type">♣</div>
+                      <div class="bottom-type">♣</div>
+                      <div class="bottom-number">4</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+                   
+                   <li class="card diams">
+                  <div class="front">
+                      <div class="top-number">5</div>
+                      <div class="top-type">♦</div>
+                           <div class="type">♦</div>
+                      <div class="bottom-type">♦</div>
+                      <div class="bottom-number">5</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card hearts">
+                  <div class="front">
+                      <div class="top-number">6</div>
+                      <div class="top-type">♥</div>
+                           <div class="type">♥</div>
+                      <div class="bottom-type">♥</div>
+                      <div class="bottom-number">6</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card spades">
+                  <div class="front">
+                      <div class="top-number">7</div>
+                      <div class="top-type">♠</div>
+                           <div class="type">♠</div>
+                      <div class="bottom-type">♠</div>
+                      <div class="bottom-number">7</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+                   <li class="card spades">
+                  <div class="front">
+                      <div class="top-number">9</div>
+                      <div class="top-type">♠</div>
+                           <div class="type">♠</div>
+                      <div class="bottom-type">♠</div>
+                      <div class="bottom-number">9</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card hearts">
+                  <div class="front">
+                      <div class="top-number">10</div>
+                      <div class="top-type">♥</div>
+                           <div class="type">♥</div>
+                      <div class="bottom-type">♥</div>
+                      <div class="bottom-number">10</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card spades">
+                  <div class="front">
+                      <div class="top-number">J</div>
+                      <div class="top-type">♠</div>
+                           <div class="type">♠</div>
+                      <div class="bottom-type">♠</div>
+                      <div class="bottom-number">J</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card diams">
+                  <div class="front">
+                      <div class="top-number">Q</div>
+                      <div class="top-type">♣</div>
+                           <div class="type">♣</div>
+                      <div class="bottom-type">♣</div>
+                      <div class="bottom-number">Q</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card spades">
+                  <div class="front">
+                      <div class="top-number">K</div>
+                      <div class="top-type">♠</div>
+                           <div class="type">♠</div>
+                      <div class="bottom-type">♠</div>
+                      <div class="bottom-number">K</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card diams">
+                  <div class="front">
+                      <div class="top-number">A</div>
+                      <div class="top-type">♦</div>
+                           <div class="type">♦</div>
+                      <div class="bottom-type">♦</div>
+                      <div class="bottom-number">A</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+               
+               <li class="card spades">
+                  <div class="front">
+                      <div class="top-number">K</div>
+                      <div class="top-type">♠</div>
+                           <div class="type">♠</div>
+                      <div class="bottom-type">♠</div>
+                      <div class="bottom-number">K</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+
+               <li class="card diams">
+                  <div class="front">
+                      <div class="top-number">A</div>
+                      <div class="top-type">♦</div>
+                           <div class="type">♦</div>
+                      <div class="bottom-type">♦</div>
+                      <div class="bottom-number">A</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+               
+               <li class="card diams">
+                  <div class="front">
+                      <div class="top-number">A</div>
+                      <div class="top-type">♦</div>
+                           <div class="type">♦</div>
+                      <div class="bottom-type">♦</div>
+                      <div class="bottom-number">A</div>
+                  </div>
+                  <div class="back">
+                      <div class="pattern"></div>
+                  </div>
+               </li>
+               
+           </ul>
+	    
+	</div>
+
+    <div class="game">
+        
+               <ul class="cards spread pyramid">
+                     
+                     <li class="card clubs">
+                        <div class="front">
+                            <div class="top-number">2</div>
+                            <div class="top-type">♣</div>
+                                 <div class="type">♣</div>
+                            <div class="bottom-type">♣</div>
+                            <div class="bottom-number">2</div>
+                        </div>
+                        <div class="back">
+                            <div class="pattern"></div>
+                        </div>
+                     </li>
+                     
+                     <ul class="spanTwo">
+                         <li class="card hearts">
+                            <div class="front">
+                                <div class="top-number">3</div>
+                                <div class="top-type">♥</div>
+                                     <div class="type">♥</div>
+                                <div class="bottom-type">♥</div>
+                                <div class="bottom-number">3</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card clubs">
+                            <div class="front">
+                                <div class="top-number">4</div>
+                                <div class="top-type">♣</div>
+                                     <div class="type">♣</div>
+                                <div class="bottom-type">♣</div>
+                                <div class="bottom-number">4</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+                     </ul>
+
+                     <ul class="spanThree">
+                         
+                         <li class="card diams">
+                            <div class="front">
+                                <div class="top-number">5</div>
+                                <div class="top-type">♦</div>
+                                     <div class="type">♦</div>
+                                <div class="bottom-type">♦</div>
+                                <div class="bottom-number">5</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card hearts">
+                            <div class="front">
+                                <div class="top-number">6</div>
+                                <div class="top-type">♥</div>
+                                     <div class="type">♥</div>
+                                <div class="bottom-type">♥</div>
+                                <div class="bottom-number">6</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card spades">
+                            <div class="front">
+                                <div class="top-number">7</div>
+                                <div class="top-type">♠</div>
+                                     <div class="type">♠</div>
+                                <div class="bottom-type">♠</div>
+                                <div class="bottom-number">7</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+                         
+                     </ul>
+
+                     <ul class="spanFour">
+
+                         <li class="card spades">
+                            <div class="front">
+                                <div class="top-number">9</div>
+                                <div class="top-type">♠</div>
+                                     <div class="type">♠</div>
+                                <div class="bottom-type">♠</div>
+                                <div class="bottom-number">9</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card hearts">
+                            <div class="front">
+                                <div class="top-number">10</div>
+                                <div class="top-type">♥</div>
+                                     <div class="type">♥</div>
+                                <div class="bottom-type">♥</div>
+                                <div class="bottom-number">10</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card spades">
+                            <div class="front">
+                                <div class="top-number">J</div>
+                                <div class="top-type">♠</div>
+                                     <div class="type">♠</div>
+                                <div class="bottom-type">♠</div>
+                                <div class="bottom-number">J</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card diams">
+                            <div class="front">
+                                <div class="top-number">Q</div>
+                                <div class="top-type">♣</div>
+                                     <div class="type">♣</div>
+                                <div class="bottom-type">♣</div>
+                                <div class="bottom-number">Q</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+                         
+                     </ul>
+
+                     <ul class="spanFive">
+                         
+                         <li class="card spades">
+                            <div class="front">
+                                <div class="top-number">K</div>
+                                <div class="top-type">♠</div>
+                                     <div class="type">♠</div>
+                                <div class="bottom-type">♠</div>
+                                <div class="bottom-number">K</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card diams">
+                            <div class="front">
+                                <div class="top-number">A</div>
+                                <div class="top-type">♦</div>
+                                     <div class="type">♦</div>
+                                <div class="bottom-type">♦</div>
+                                <div class="bottom-number">A</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+                         
+                         <li class="card spades">
+                            <div class="front">
+                                <div class="top-number">K</div>
+                                <div class="top-type">♠</div>
+                                     <div class="type">♠</div>
+                                <div class="bottom-type">♠</div>
+                                <div class="bottom-number">K</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+
+                         <li class="card diams">
+                            <div class="front">
+                                <div class="top-number">A</div>
+                                <div class="top-type">♦</div>
+                                     <div class="type">♦</div>
+                                <div class="bottom-type">♦</div>
+                                <div class="bottom-number">A</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+                         
+                         <li class="card diams">
+                            <div class="front">
+                                <div class="top-number">A</div>
+                                <div class="top-type">♦</div>
+                                     <div class="type">♦</div>
+                                <div class="bottom-type">♦</div>
+                                <div class="bottom-number">A</div>
+                            </div>
+                            <div class="back">
+                                <div class="pattern"></div>
+                            </div>
+                         </li>
+                         
+                     </ul>
+                     
+                 </ul>
+                 
+    </div>
+
+	<div class="game two-stacks">
+	    <ul class="cards stacked new">
+	        
+	        <li class="card clubs">
+	           <div class="front">
+	               <div class="top-number">2</div>
+	               <div class="top-type">♣</div>
+                        <div class="type">♣</div>
+	               <div class="bottom-type">♣</div>
+	               <div class="bottom-number">2</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card hearts">
+	           <div class="front">
+	               <div class="top-number">3</div>
+	               <div class="top-type">♥</div>
+                        <div class="type">♥</div>
+	               <div class="bottom-type">♥</div>
+	               <div class="bottom-number">3</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card clubs">
+	           <div class="front">
+	               <div class="top-number">4</div>
+	               <div class="top-type">♣</div>
+                        <div class="type">♣</div>
+	               <div class="bottom-type">♣</div>
+	               <div class="bottom-number">4</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card diams">
+	           <div class="front">
+	               <div class="top-number">5</div>
+	               <div class="top-type">♦</div>
+                        <div class="type">♦</div>
+	               <div class="bottom-type">♦</div>
+	               <div class="bottom-number">5</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card hearts">
+	           <div class="front">
+	               <div class="top-number">6</div>
+	               <div class="top-type">♥</div>
+                        <div class="type">♥</div>
+	               <div class="bottom-type">♥</div>
+	               <div class="bottom-number">6</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">7</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">7</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">8</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">8</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">9</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">9</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card hearts">
+	           <div class="front">
+	               <div class="top-number">10</div>
+	               <div class="top-type">♥</div>
+                        <div class="type">♥</div>
+	               <div class="bottom-type">♥</div>
+	               <div class="bottom-number">10</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">J</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">J</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card diams">
+	           <div class="front">
+	               <div class="top-number">Q</div>
+	               <div class="top-type">♣</div>
+                        <div class="type">♣</div>
+	               <div class="bottom-type">♣</div>
+	               <div class="bottom-number">Q</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">K</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">K</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card diams">
+	           <div class="front">
+	               <div class="top-number">A</div>
+	               <div class="top-type">♦</div>
+                        <div class="type">♦</div>
+	               <div class="bottom-type">♦</div>
+	               <div class="bottom-number">A</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	    </ul>
+
+        <ul class="cards stacked old">
+            
+            <li class="card clubs">
+	           <div class="front">
+	               <div class="top-number">2</div>
+	               <div class="top-type">♣</div>
+                        <div class="type">♣</div>
+	               <div class="bottom-type">♣</div>
+	               <div class="bottom-number">2</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card hearts">
+	           <div class="front">
+	               <div class="top-number">3</div>
+	               <div class="top-type">♥</div>
+                        <div class="type">♥</div>
+	               <div class="bottom-type">♥</div>
+	               <div class="bottom-number">3</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card clubs">
+	           <div class="front">
+	               <div class="top-number">4</div>
+	               <div class="top-type">♣</div>
+                        <div class="type">♣</div>
+	               <div class="bottom-type">♣</div>
+	               <div class="bottom-number">4</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card diams">
+	           <div class="front">
+	               <div class="top-number">5</div>
+	               <div class="top-type">♦</div>
+                        <div class="type">♦</div>
+	               <div class="bottom-type">♦</div>
+	               <div class="bottom-number">5</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card hearts">
+	           <div class="front">
+	               <div class="top-number">6</div>
+	               <div class="top-type">♥</div>
+                        <div class="type">♥</div>
+	               <div class="bottom-type">♥</div>
+	               <div class="bottom-number">6</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">7</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">7</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">8</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">8</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">9</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">9</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card hearts">
+	           <div class="front">
+	               <div class="top-number">10</div>
+	               <div class="top-type">♥</div>
+                        <div class="type">♥</div>
+	               <div class="bottom-type">♥</div>
+	               <div class="bottom-number">10</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">J</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">J</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card diams">
+	           <div class="front">
+	               <div class="top-number">Q</div>
+	               <div class="top-type">♣</div>
+                        <div class="type">♣</div>
+	               <div class="bottom-type">♣</div>
+	               <div class="bottom-number">Q</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card spades">
+	           <div class="front">
+	               <div class="top-number">K</div>
+	               <div class="top-type">♠</div>
+                        <div class="type">♠</div>
+	               <div class="bottom-type">♠</div>
+	               <div class="bottom-number">K</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+	        
+	        <li class="card diams active">
+	           <div class="front">
+	               <div class="top-number">A</div>
+	               <div class="top-type">♦</div>
+                        <div class="type">♦</div>
+	               <div class="bottom-type">♦</div>
+	               <div class="bottom-number">A</div>
+	           </div>
+   	           <div class="back">
+   	               <div class="pattern"></div>
+   	           </div>
+	        </li>
+            
+        </ul>
+	</div>
+		
+	</section>
+	
+</body>
+</html>
